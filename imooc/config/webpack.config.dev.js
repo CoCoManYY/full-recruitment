@@ -243,7 +243,7 @@ module.exports = {
           // Process any JS outside of the app with Babel.
           // Unlike the application JS, we only compile the standard ES features.
           {
-            test: /\.(js|mjs)$/,
+            test: /\.(js|mjs|jsx)$/,
             exclude: /@babel(?:\/|\\{1,2})runtime/,
             loader: require.resolve('babel-loader'),
             options: {
