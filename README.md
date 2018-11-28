@@ -11,3 +11,7 @@
  **express使用**：
  1. app.use可以当我们的模块复杂后，拆单独模块
  2. ```res.send res.json  res.sendfile```返回文本、json、文件!
+ **mongodb使用**
+ 1. 安装mongoose依赖
+ 2. 利用mongoose连接数据库，记住需要先开net start mongodb
+ 3. 增create，删remove，查find/fineOne，改update。
