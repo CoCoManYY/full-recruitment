@@ -15,3 +15,22 @@
  1. 安装mongoose依赖
  2. 利用mongoose连接数据库，记住需要先开net start mongodb
  3. 增create，删remove，查find/fineOne，改update。
+ #### 引入antd-mobile
+- npm install
+- 修改package.json
+```
+"babel": {
+           "presets": [
+             "react-app"
+           ],
+           "plugins":[
+             ["import", { "libraryName": "antd-mobile", "style": "css" }]
+           ]
+         },
+```
+#### react
+- react默认处理同步，需要处理异步级下载redux-thunk插件即可 applyMiddleware
+- 可以使用react和redux，这样二者连接起来需要subscrib（参数可以是render），还有链接reactdevtool很麻烦
+- 于是我们可以采用react+react-redux这样会更加方便提供connect方法等等
+- 最后我们的connect也可以采用装饰器书写方式，下载一个插件！（bable-plugin-transform-decorators-legacy）
+- 采用react-router4，开发SPA必备（注意加exact参数完全匹配）   *history.push也是一种路由跳转方法*
