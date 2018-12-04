@@ -24,9 +24,9 @@ ReactDom.render(
 		<BrowserRouter>
 			<div>
 				<AuthRoute></AuthRoute>
-				<Boss path='/boss' component={Boss}></Boss>
 				<Route path='/login' component={Login}></Route>
 				<Route path='/register' component={Register}></Route>
+                <Route path='/boss' component={Boss}></Route>
 			</div>
 		</BrowserRouter>
 	</Provider>),

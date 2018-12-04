@@ -1,7 +1,12 @@
 const express = require('express');
+const bodyParser=require('body-parser');
+const cookParser= require('cookie-parser');
 const userRouter=require('./user');
 
-const app = express()
+const app = express();
+//先后
+app.use(cookParser());
+app.use(bodyParser.json());
 app.use('/user',userRouter);
 
 app.listen(9093,function(){
