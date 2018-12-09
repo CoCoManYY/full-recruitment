@@ -16,7 +16,7 @@ class Register extends React.Component{
 			user:'',
 			pwd:'',
 			repeatpwd:'',
-			type:'genius'
+			type:''
 		};
 		this.handleRegister=this.handleRegister.bind(this);//这个做法性能会好一些，但是没得办法传参数。
 	}

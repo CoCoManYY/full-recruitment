@@ -18,7 +18,7 @@ class AvatarSelector extends Component{
                                 ?(<div><span>
                                     已选择头像
                                 </span>
-                                <img style={{width:20}} src={this.state.icon}/>
+                                <img style={{width:20}} src={this.state.icon} alt={this.state.text}/>
                                 </div>):
                                 <div>'请选择头像</div>
         return (
