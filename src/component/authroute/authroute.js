@@ -3,7 +3,7 @@ import axios from 'axios';
 import {withRouter}from 'react-router-dom';
 import {loadData} from '../../redux/user_redux';
 import {connect} from "react-redux";
-
+//https://www.imooc.com/wenda/detail/384869
 @withRouter
 @connect(
     null,

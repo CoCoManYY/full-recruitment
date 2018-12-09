@@ -31,7 +31,7 @@ export function user(state=initState,action) {
             return state;
     }
 }
-
+//action-creator
 function errorMsg(msg){
     return {type:ERROR_MSG,msg:msg}
 }
