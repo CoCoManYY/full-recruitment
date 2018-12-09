@@ -39,6 +39,7 @@ function errorMsg(msg){
 //     return {type:REGISTER_SUCCESS,payload:data}
 // }
 function authSuccess(data){
+    // var {pwd,...data}= data;
     return {type:AUTH_SUCCESS,payload:data}
 }
 export function loadData(userinfo) {

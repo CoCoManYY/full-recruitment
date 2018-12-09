@@ -14,7 +14,10 @@ class BossInfo extends Component{
     constructor(props){
         super(props);
         this.state={
-            title:''
+            title:'',
+            desc:'',
+            company:'',
+            money:''
         }
     }
     onChange(key,val){
