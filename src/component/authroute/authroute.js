@@ -21,7 +21,6 @@ class AuthRoute extends Component{
         if(publicList.indexOf(pathname)>-1){
             return null;
         }
-        console.log(this.props);
         axios.get('/user/info').then(res=>{
             if(res.status===200){
                 if(res.data.code===0){
@@ -29,7 +28,6 @@ class AuthRoute extends Component{
                 }else {
                     this.props.history.push('/login');
                 }
-                console.log(res.data);
             }
         })
     }
