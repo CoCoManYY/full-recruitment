@@ -62,7 +62,7 @@ class DashBoard extends Component{
                     </Switch>
                 </div>
 
-                <NavLinkBar data={navList}>
+                <NavLinkBar data={navList.filter(v=>!v.hide)}>
                 </NavLinkBar>
             </div>
         )

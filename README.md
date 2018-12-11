@@ -34,3 +34,12 @@
 - 于是我们可以采用react+react-redux这样会更加方便提供connect方法等等
 - 最后我们的connect也可以采用装饰器书写方式，下载一个插件！（bable-plugin-transform-decorators-legacy）
 - 采用react-router4，开发SPA必备（注意加exact参数完全匹配）   *history.push也是一种路由跳转方法*
+
+#### 引入cookie
+```
+const cookParser= require('cookie-parser');
+
+app.use(cookParser());
+app.use(bodyParser.json());
+```
+就可以进行cookie操作了，**但是需要注意```cookParse```和```bodyParse```的先后**！！
