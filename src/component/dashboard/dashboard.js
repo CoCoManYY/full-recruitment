@@ -6,12 +6,10 @@ import {Switch,Route} from 'react-router-dom';
 import NavLinkBar from '../navlink/navlink';
 import Boss from '../../component/boss/boss';
 import Genius from '../../component/genius/genius';
-
+import User from '../../component/user/user';
 
 function Msg(){
     return <h2>msg首页</h2>
-}function User(){
-    return <h2>user首页</h2>
 }
 @connect(
     state=>state,
@@ -50,7 +48,7 @@ class DashBoard extends Component{
                 component:User
             },
         ]
-        return(
+        return navList.length!==0?(
             <div>
                 <NavBar className={'fixd-header'} mode='dark'>{navList.find(v=>v.path===pathname).title}</NavBar>
 
@@ -65,7 +63,7 @@ class DashBoard extends Component{
                 <NavLinkBar data={navList.filter(v=>!v.hide)}>
                 </NavLinkBar>
             </div>
-        )
+        ):null
     }
 }
 export default DashBoard;
