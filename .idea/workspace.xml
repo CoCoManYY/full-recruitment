@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c421941-6315-4c9f-a568-c1e07e13b3b8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/dashboard/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/dashboard/dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/navlink/navlink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/navlink/navlink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/chatuser.redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/chatuser.redux.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -31,8 +30,8 @@
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+            <state relative-caret-position="-359">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding>
                 <element signature="e#82#118#0" expanded="true" />
               </folding>
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            <state relative-caret-position="132">
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -53,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/component/genius/genius.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -64,8 +63,8 @@
       <file leaf-file-name="boss.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/boss/boss.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -76,8 +75,8 @@
       <file leaf-file-name="authroute.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="133">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -88,8 +87,8 @@
       <file leaf-file-name="usercard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/usercard/usercard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="266">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -97,29 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chatuser.redux.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chatuser.redux.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/redux/chatuser.redux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="266">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/user.js">
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navlink.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/navlink/navlink.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -148,13 +138,17 @@
       <find>loadData</find>
       <find>register</find>
       <find>dispatch</find>
-      <find>pwd</find>
       <find>Navbar</find>
       <find>console.l</find>
       <find>getRedirectPath</find>
       <find>componentDi</find>
       <find>cookie</find>
       <find>cookParser</find>
+      <find>DashBoard</find>
+      <find>nav</find>
+      <find>userli</find>
+      <find>getUserList</find>
+      <find>pwd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,15 +190,15 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/server/user.js" />
-        <option value="$PROJECT_DIR$/src/redux/chatuser.redux.js" />
         <option value="$PROJECT_DIR$/src/reducer.js" />
         <option value="$PROJECT_DIR$/src/component/usercard/usercard.js" />
         <option value="$PROJECT_DIR$/src/component/boss/boss.js" />
         <option value="$PROJECT_DIR$/src/component/genius/genius.js" />
         <option value="$PROJECT_DIR$/src/util.js" />
-        <option value="$PROJECT_DIR$/src/component/dashboard/dashboard.js" />
         <option value="$PROJECT_DIR$/src/component/navlink/navlink.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/component/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/redux/chatuser.redux.js" />
       </list>
     </option>
   </component>
@@ -269,7 +263,14 @@
               <item name="full-recruitment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="navlink" type="462c0819:PsiDirectoryNode" />
+              <item name="authroute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="full-recruitment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-recruitment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="usercard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="full-recruitment" type="b2602c69:ProjectViewProjectNode" />
@@ -390,7 +391,8 @@
       <workItem from="1544023558025" duration="1036000" />
       <workItem from="1544327458238" duration="9972000" />
       <workItem from="1544449043836" duration="8391000" />
-      <workItem from="1544526294589" duration="398000" />
+      <workItem from="1544526294589" duration="459000" />
+      <workItem from="1544968941369" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="运行eject自定义">
       <created>1543248459995</created>
@@ -469,27 +471,43 @@
       <option name="project" value="LOCAL" />
       <updated>1544456550327</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add cookie+ fix bug">
+      <created>1544526739564</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544526739564</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68833000" />
+    <option name="totallyTimeSpent" value="71785000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.12483487" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952926" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019815" side_tool="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4980185" visible="true" weight="0.32952926" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" weight="0.3281027" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4980185" weight="0.32952926" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.12483487" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49867898" weight="0.2853067" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -501,19 +519,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12483487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4980185" weight="0.32952926" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.3281027" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39942938" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49867898" weight="0.28673324" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5019815" side_tool="true" weight="0.32952926" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4980185" weight="0.32952926" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -562,7 +580,8 @@
     <MESSAGE value="boss页面后端" />
     <MESSAGE value="geniusinfo页面" />
     <MESSAGE value="牛人+boss列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="牛人+boss列表" />
+    <MESSAGE value="add cookie+ fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cookie+ fix bug" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/imooc/README.md" />
@@ -647,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/container/geniusinfo/geniusinfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -703,61 +715,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/boss/boss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/usercard/usercard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/redux/chatuser.redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/navlink/navlink.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -782,30 +736,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/genius/genius.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="836">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/dashboard/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        <state relative-caret-position="-359">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#82#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/component/usercard/usercard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/boss/boss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/genius/genius.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/authroute/authroute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/chatuser.redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
         </state>
       </provider>
     </entry>

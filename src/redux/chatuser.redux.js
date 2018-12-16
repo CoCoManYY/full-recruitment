@@ -24,6 +24,7 @@ export function getUserList(type){
 		axios.get('/user/list?type='+type)
 			.then(res=>{
 				if (res.data.code===0) {
+                    delete res.data.data.pwd;
 					dispatch(userList(res.data.data))
 				}
 			})
