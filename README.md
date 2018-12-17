@@ -49,3 +49,4 @@ app.use(bodyParser.json());
 #### 注意
 1. 总是需要绑定this，有很多种方法！
 2. 利用redux 的 diff dug很舒服！
+3. 函数式编程、高阶组件(属性扩展、反向继承)
