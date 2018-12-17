@@ -43,3 +43,9 @@ app.use(cookParser());
 app.use(bodyParser.json());
 ```
 就可以进行cookie操作了，**但是需要注意```cookParse```和```bodyParse```的先后**！！
+
+
+
+#### 注意
+1. 总是需要绑定this，有很多种方法！
+2. 利用redux 的 diff dug很舒服！

@@ -48,7 +48,7 @@ class DashBoard extends Component{
                 component:User
             },
         ]
-        return navList.length!==0?(
+        return (
             <div>
                 <NavBar className={'fixd-header'} mode='dark'>{navList.find(v=>v.path===pathname).title}</NavBar>
 
@@ -63,7 +63,7 @@ class DashBoard extends Component{
                 <NavLinkBar data={navList.filter(v=>!v.hide)}>
                 </NavLinkBar>
             </div>
-        ):null
+        )
     }
 }
 export default DashBoard;
