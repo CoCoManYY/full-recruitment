@@ -44,7 +44,8 @@ app.use(bodyParser.json());
 ```
 就可以进行cookie操作了，**但是需要注意```cookParse```和```bodyParse```的先后**！！
 
-
+#### socket.io
+- 基于websocket协议
 
 #### 注意
 1. 总是需要绑定this，有很多种方法！
