@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {InputItem, List} from 'antd-mobile';
-import io from 'socket.io-client';
-
-const socket = io('ws://localhost:9093');
-
+import {connect} from 'react-redux';
+import {getMsgList,sendMsg,recvMsg} from '../../redux/chat.redux'
+@connect(
+    state=>state,
+    {getMsgList,sendMsg,recvMsg}
+)
 class Chat extends Component {
     constructor(props) {
         super(props);
@@ -14,21 +16,26 @@ class Chat extends Component {
     }
 
     componentDidMount() {
-        socket.on('recvmsg', (data)=> {
-            this.setState({
-                msg: [...this.state.msg, data.text]
-            })
-        })
+        this.props.getMsgList();
+        this.props.recvMsg();
+        // socket.on('recvmsg', (data)=> {
+        //     this.setState({
+        //         msg: [...this.state.msg, data.text]
+        //     })
+        // })
     }
 
     handleSubmit() {
-        socket.emit('sendmsg', {text: this.state.text});
+        // socket.emit('sendmsg', {text: this.state.text});
         //清空输入框
+        const from = this.props.user._id;
+        const to=this.props.match.params.user;
+        const msg=this.state.text;
+        this.props.sendMsg({from,to,msg});
         this.setState({text: ''});
     }
 
     render() {
-        console.log(this.props);
         return (
             <div>
                 {this.state.msg.map(v=>{
@@ -43,7 +50,6 @@ class Chat extends Component {
                                 this.setState({text: v})
                             }}
                             extra={<span onClick={() => this.handleSubmit()}>发送</span>}>
-
                         </InputItem>
                     </List>
                 </div>

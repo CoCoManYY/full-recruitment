@@ -1,9 +1,9 @@
 const express = require('express');
 const utils=require('utility');
-
 const Router = express.Router();
 const models = require('./model');
 const User=models.getModel('user');
+const Chat=models.getModel('chat');
 const _filter={'pwd':0,'__v':0}
 
 Router.get('/list',function(req, res){
@@ -76,13 +76,26 @@ Router.get('/list',function (req,res) {
         return res.json(doc);
     })
 })
+//聊天
+Router.get('/getmsglist',function (req,res) {
+   const user=req.cookies.user;
+   Chat.find({'$or':[{'form':user,'to':user}]},function (err,doc) {
+       if(!err){
+           return res.json({code:0,msg:doc});
+       }else{
+           console.log(err);
+       }
+   })
+});
 
+
+
+
+
+//工具函数
 function md5pwd(pwd){
     const salt='rourouloveqiutu~~forever!!Boom';
     return utils.md5(utils.md5(pwd+salt));
 }
-
-
-
 
 module.exports = Router

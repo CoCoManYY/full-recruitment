@@ -14,9 +14,15 @@ const models = {
         //职位名称
         'title':{type:String},
         'company':{type:String},
-        'money':{type:String}
+        'money':{type:String},
     },
     chat:{
+        'chat_id':{type:String,require:true},
+        'from':{type:String,require:true},
+        'to':{type:String,require:true},
+        'read':{type:Boolean,default:false},
+        'content':{type:String,require:true, default: ''},
+        'create_time':{type:Number,default:new Date().getTime()}
     }
 };
 for(let m in models){
