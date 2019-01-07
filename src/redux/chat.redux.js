@@ -10,7 +10,7 @@ const initState={
     chatmsg:[],
     unread:0
 }
-
+// 为什么返回函数，因为redux中间件
 export function chat(state=initState,action) {
     switch (action.type) {
         case MSG_LIST:
