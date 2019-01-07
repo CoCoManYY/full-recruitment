@@ -1,11 +1,53 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
+import {InputItem, List} from 'antd-mobile';
+import io from 'socket.io-client';
 
-class Chat extends Component{
+const socket = io('ws://localhost:9093');
 
-    render(){
+class Chat extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            text: '',
+            msg: []
+        }
+    }
+
+    componentDidMount() {
+        socket.on('recvmsg', (data)=> {
+            this.setState({
+                msg: [...this.state.msg, data.text]
+            })
+        })
+    }
+
+    handleSubmit() {
+        socket.emit('sendmsg', {text: this.state.text});
+        //清空输入框
+        this.setState({text: ''});
+    }
+
+    render() {
         console.log(this.props);
         return (
-            <h2> chat with user:{this.props.match.params.user}</h2>
+            <div>
+                {this.state.msg.map(v=>{
+                    return <p key={v}>{v}</p>
+                })}
+                <div className={'stick-footer'}>
+                    <List>
+                        <InputItem
+                            placeholder={'请输入'}
+                            value={this.state.text}
+                            onChange={v => {
+                                this.setState({text: v})
+                            }}
+                            extra={<span onClick={() => this.handleSubmit()}>发送</span>}>
+
+                        </InputItem>
+                    </List>
+                </div>
+            </div>
         )
     }
 }
