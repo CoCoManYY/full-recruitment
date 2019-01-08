@@ -1,5 +1,5 @@
 # full-recruitment
-### 使用心得
+### 使用心得（零碎记一点东西）
 #### 简单跑起来
 - 采用create-react-app快速生成一个react的app
 - 安装redux
@@ -51,3 +51,8 @@ app.use(bodyParser.json());
 1. 总是需要绑定this，有很多种方法！
 2. 利用redux 的 diff dug很舒服！
 3. 函数式编程、高阶组件(属性扩展、反向继承)
+
+### 项目目的
+书写本项目主要是为了熟练react全家桶的使用、node后端（本次采用express框架），以及mongodb的使用。
+主要功能：基本的登录、注册、设置以及计算机网络的socket实验运用到实际应用中形成了一个聊天室。
+总的来说感觉react没有vue那么好上手，但是，vue对于大型项目性能会明显降低，所以还是都掌握一下比较好~~~
