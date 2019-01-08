@@ -15,6 +15,7 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index:9;
 }
 .page-content{
 	padding:45px 5px;
@@ -34,7 +35,7 @@
 }
 .stick-footer{
 	z-index:10;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width:100%;
 }
